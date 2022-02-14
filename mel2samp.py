@@ -34,7 +34,7 @@ import torch
 import torch.utils.data
 from scipy.io.wavfile import read
 
-path_to_taco = "" # insert valid path of the Tacotron2 repo
+path_to_taco = '/home/lyakhtin/repos/tts/russian-speech-synthesis/submodules/tacotron2'  # insert valid path of the Tacotron2 repo
 sys.path.insert(0, path_to_taco)
 from modules.layers import TacotronSTFT
 sys.path.pop(0)
